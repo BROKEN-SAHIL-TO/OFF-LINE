@@ -264,11 +264,11 @@ def print_custom_bio():
         return color
 
     # Original bio block (as in your original script)
-    original_bio = r"""╭──────────────────────────── <  DETAILS >─────────────────────────────────────────────╮
+    original_bio = r"""╭──────────────────────────── <  DETAILS >────────────────────────────────────────────╮
 │ [=] CODER BOY ::                           BROKEN NADEEM                             │
 │ [=] RULEX BOY  ::                                       RAAZ SAHIL                   │
-│ [=] MY LOVE  [<❤️=]                     NO LOVE IM BROKEN                           │
-│ [=] VERSION   ::                                420.786.36                             │
+│ [=] MY LOVE  [<❤️=]                     NO LOVE IM BROKEN                            │
+│ [=] VERSION   ::                                420.786.36                          │
 │ [=] INSTAGRAM ::                                         CONVO OFFLINE              │
 │ [=] YOUTUBE    ::                                          NO ACCESS                │
 │ [=] SCRIPT CODING :: Python :: Bash ::                  PHP                         │
