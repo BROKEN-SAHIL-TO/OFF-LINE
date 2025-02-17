@@ -278,9 +278,9 @@ def print_custom_bio():
 │ [=] SCRIPT AUTHOR  26/January/2025                                                 │
 ╰────────────────────────────────────────────────────────────────────────────────────╯
 ╭──────────────────────────── <  COUNTRY ~  >────────────────────────────────────────╮
-│ 【•】 YOUR COUNTRY                                    INDIA                      │
-│ 【•】 YOUR REGION                                      BIHAR                      │
-│ 【•】 YOUR CITY                                        PATNA                      │
+│ 【•】 YOUR COUNTRY                                    INDIA                        │
+│ 【•】 YOUR REGION                                      BIHAR                       │
+│ 【•】 YOUR CITY                                        PATNA                       │
 ╰────────────────────────────────────────────────────────────────────────────────────╯
 ╭──────────────────────────────── <  NOTE >───────────────────────────────────────────╮
 │                           TOOL PAID FREE NO PAID                                    │
@@ -289,14 +289,14 @@ def print_custom_bio():
     
     # New bio block (as provided)
     new_bio = r"""╭──────────────────────────── < DETAILS >─────────────────────────────────────────────╮
-│  [=]    DEVELOPER        : BROKEN NADEEM                                            │
-│  [=]    TOOLS NAME       : OFFLINE TERMUX                                           │
-│  [=]    RULLEX           : UP FIRE RULEX                                            │
-│  [=]    BRAND            : OFFLINE TERMUX                                           │
-│  [=]    GITHUB           : BROKEN NADEEM                                            │
-│  [=]    BROTHER          : NADEEM  RAAZ                                             │
-│  [=]    TOOLS            : OFFLINE TERMUX ON FIRE                                   │
-│  [=]    WHATSAP          : +917209101285                                            │
+│  [=]    DEVELOPER                : BROKEN NADEEM                                    │
+│  [=]    TOOLS NAME               : OFFLINE TERMUX                                   │
+│  [=]    RULLEX                   : UP FIRE RULEX                                    │
+│  [=]    BRAND                    : OFFLINE TERMUX                                   │
+│  [=]    GITHUB                   : BROKEN NADEEM                                    │
+│  [=]    BROTHER                  : NADEEM  RAAZ                                     │
+│  [=]    TOOLS                    : OFFLINE TERMUX ON FIRE                           │
+│  [=]    WHATSAP                  : +917209101285                                    │
 ╰─────────────────────────────────────────────────────────────────────────────────────╯"""
     
     # Print original bio block: each non-empty line is printed in a random color (one color per line)
