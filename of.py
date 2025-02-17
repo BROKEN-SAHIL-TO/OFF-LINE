@@ -473,9 +473,9 @@ def venom():
         return f"\033[38;5;{code}m"
     info = r"""<<════════════════════════════════════════════════════════>>
   OWNER                      : BROKEN NADEEM
-  CrEaToR                  : LEGEND NADEEM                      
-  YOUR FB ID              : IM NOT USSER FB
-  Contact                 : +917209101285
+  CCRETOR                    : LEGEND NADEEM                      
+  YOUR FB ID                 : IM NOT USSER FB
+  Contact                    : +917209101285
 <<════════════════════════════════════════════════════════>>"""
     for line in info.splitlines():
         sys.stdout.write("\x1b[1;%sm%s%s\n" % (random.choice(color_list), line, clear))
