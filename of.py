@@ -278,7 +278,7 @@ def print_custom_bio():
 │ [=] SCRIPT AUTHOR  26/January/2025                                                 │
 ╰────────────────────────────────────────────────────────────────────────────────────╯
 ╭──────────────────────────── <  COUNTRY ~  >────────────────────────────────────────╮
-│ 【•】 YOUR COUNTRY                                    INDIA                        │
+│ 【•】 YOUR COUNTRY                                     INDIA                       │
 │ 【•】 YOUR REGION                                      BIHAR                       │
 │ 【•】 YOUR CITY                                        PATNA                       │
 ╰────────────────────────────────────────────────────────────────────────────────────╯
@@ -295,7 +295,7 @@ def print_custom_bio():
 │  [=]    BRAND                    : OFFLINE TERMUX                                   │
 │  [=]    GITHUB                   : BROKEN NADEEM                                    │
 │  [=]    BROTHER                  : NADEEM  RAAZ                                     │
-│  [=]    TOOLS                    : OFFLINE TERMUX ON FIRE                           │
+│  [=]    TOOLS                    : OFFLINE TERMUx                                   │
 │  [=]    WHATSAP                  : +917209101285                                    │
 ╰─────────────────────────────────────────────────────────────────────────────────────╯"""
     
