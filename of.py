@@ -320,7 +320,7 @@ def print_custom_bio():
     
     # Print a final blinking success message in a random flashy dark color.
     blink = "\033[5m"
-    print(blink + get_random_color_line() + "[✅ SUCCESS] Ultimate Fancy Bio Loaded!" + "\033[0m")
+    print(blink + get_random_color_line() + "[✅ SUCCESS FULL ULTIMATE FANCY BIO LOADED" + "\033[0m")
 
 # --- Animated Print Functions (for logos, SMS details, etc.) ---
 def animated_print(text, delay=0.01, jitter=0.005):
@@ -329,7 +329,7 @@ def animated_print(text, delay=0.01, jitter=0.005):
     for char in text:
         sys.stdout.write(random.choice(flashy_colors) + char + Style.RESET_ALL)
         sys.stdout.flush()
-        time.sleep(delay + random.uniform(0, jitter))
+        time.sleep(delay + random.uniform(0, jitter)) 
     print()
 
 def animated_logo():
@@ -348,15 +348,15 @@ def animated_logo():
 # --- Menu Function with Animated Options ---
 def main_menu():
     # Print the animated menu header as specified
-    animated_print("<============================ New Menu Options ============================>", delay=0.005, jitter=0.002)
+    animated_print("<============================ NEW MENU OPTIONS ============================>", delay=0.005, jitter=0.002)
     print(random.choice(color_list) + "[1] START LOADER")
     print(random.choice(color_list) + "[2] STOP LOADER")
     print(random.choice(color_list) + "[3] SMS DISPLAY SHOW")
-    animated_print("<============================ Chosse Menu Options ============================>", delay=0.005, jitter=0.002)
-    choice = input(random.choice(color_list) + "\n[+] Choose an option (or paste STOP key if available): ").strip()
+    animated_print("<============================ CHOOSE MENU OPTIONS ===========================>", delay=0.005, jitter=0.002)
+    choice = input(random.choice(color_list) + "\n[+]  CHOOSE AN  OPTION ::").strip()
     if choice == "2":
-        stop_input = input(Fore.BLUE + "ENTER YOUR STOP KEY:::⤵️ ").strip()
-        animated_print("════════════════════════════════════════════════════════")
+        stop_input = input(Fore.BLUE + "ENTER YOUR STOP KEY:::🔛 ").strip()
+        animated_print("<<════════════════════════════════════════════════════════>>")
         if stop_input == get_stop_key():
             print(Fore.BLUE + "STOPPED")
             with open("stop_signal.txt", "w") as f:
