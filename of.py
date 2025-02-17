@@ -274,13 +274,13 @@ def print_custom_bio():
 │ [=] SCRIPT CODING :: PYTHON :: BASH ::                  PHP                         │
 ╰─────────────────────────────────────────────────────────────────────────────────────╯
 ╭──────────────────────────── <  YOUR INFO >─────────────────────────────────────────╮
-│ [=] Script Writer    1:54 AM                                                       │
-│ [=] Script Author  26/January/2025                                                 │
+│ [=] SCRIPT WRITER    1:54 AM                                                       │
+│ [=] SCRIPT AUTHOR  26/January/2025                                                 │
 ╰────────────────────────────────────────────────────────────────────────────────────╯
 ╭──────────────────────────── <  COUNTRY ~  >────────────────────────────────────────╮
-│ 【•】 Your Country                                      INDIA                      │
-│ 【•】 Your Region                                       BIHAR                      │
-│ 【•】 Your City                                         PATNA                      │
+│ 【•】 YOUR COUNTRY                                    INDIA                      │
+│ 【•】 YOUR REGION                                      BIHAR                      │
+│ 【•】 YOUR CITY                                        PATNA                      │
 ╰────────────────────────────────────────────────────────────────────────────────────╯
 ╭──────────────────────────────── <  NOTE >───────────────────────────────────────────╮
 │                           TOOL PAID FREE NO PAID                                    │
@@ -289,15 +289,15 @@ def print_custom_bio():
     
     # New bio block (as provided)
     new_bio = r"""╭──────────────────────────── < DETAILS >─────────────────────────────────────────────╮
-│  [=]    DEVELOPER     : BROKEN NADEEM                                               │
+│  [=]    DEVELOPER        : BROKEN NADEEM                                            │
 │  [=]    TOOLS NAME       : OFFLINE TERMUX                                           │
-│  [=]    RULLEX          : UP FIRE RULEX                                             │
+│  [=]    RULLEX           : UP FIRE RULEX                                            │
 │  [=]    BRAND            : OFFLINE TERMUX                                           │
-│  [=]    GitHub          : BROKEN NADEEM                                             │
-│  [=]    BROTHER         : NADEEM  RAAZ                                              │
-│  [=]    TOOLS           : OFFLINE TERMUX ON FIRE                                    │
-│  [=]    WHATSAP         : +917209101285                                             │
-╰──────────────────────────────────────────────────────────────────────────────────────╯"""
+│  [=]    GITHUB           : BROKEN NADEEM                                            │
+│  [=]    BROTHER          : NADEEM  RAAZ                                             │
+│  [=]    TOOLS            : OFFLINE TERMUX ON FIRE                                   │
+│  [=]    WHATSAP          : +917209101285                                            │
+╰─────────────────────────────────────────────────────────────────────────────────────╯"""
     
     # Print original bio block: each non-empty line is printed in a random color (one color per line)
     for line in original_bio.splitlines():
