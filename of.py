@@ -472,10 +472,10 @@ def venom():
         code = random.randint(16, 88)
         return f"\033[38;5;{code}m"
     info = r"""<<════════════════════════════════════════════════════════>>
-  OWNER    : BROKEN NADEEM
-  CrEaToR : LEGEND NADEEM                      
-  YOUR FB ID : IM NOT USSER FB
-  Contact : +917209101285
+  OWNER                      : BROKEN NADEEM
+  CrEaToR                  : LEGEND NADEEM                      
+  YOUR FB ID              : IM NOT USSER FB
+  Contact                 : +917209101285
 <<════════════════════════════════════════════════════════>>"""
     for line in info.splitlines():
         sys.stdout.write("\x1b[1;%sm%s%s\n" % (random.choice(color_list), line, clear))
@@ -496,8 +496,8 @@ colored_logo = lambda: [print("".join(f"\033[38;5;{random.randint(16,88)}m" + ch
    """.splitlines()]
 colored_logo()
 venom()
-print(Fore.GREEN + "[•] Start Time ==> " + datetime.datetime.now().strftime("%Y-%m-%d %I:%M:%S %p"))
-print(Fore.GREEN + "[•] _BROKEN BOY NADEEM\n")
+print(Fore.GREEN + "[•]  START TIME ==> " + datetime.datetime.now().strftime("%Y-%m-%d %I:%M:%S %p"))
+print(Fore.GREEN + "[•] _BROKEN BOY NADEEM IINSIIDE \n")
 animated_print("<<════════════════════════════════════════════════════════>>")
 # --- Print the Stop Key in the desired animated format ---
 animated_print          ("<==========================>", delay=0.005, jitter=0.002)
