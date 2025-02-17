@@ -265,13 +265,13 @@ def print_custom_bio():
 
     # Original bio block (as in your original script)
     original_bio = r"""╭──────────────────────────── <  DETAILS >────────────────────────────────────────────╮
-│ [=] CODER BOY ::                                BROKEN NADEEM                       │
-│ [=] RULEX BOY  ::                                 RAAZ SAHIL                        │
-│ [=] MY LOVE  [<❤️=]                           NO LOVE IM BROKEN                      │
-│ [=] VERSION   ::                                  420.786.36                        │
-│ [=] INSTAGRAM ::                                  CONVO OFFLINE                     │
-│ [=] YOUTUBE    ::                                    NO ACCESS                      │
-│ [=] SCRIPT CODING :: PYTHON :: BASH ::                  PHP                         │
+│ [=] CODER BOY   ::                                BROKEN NADEEM                       │
+│ [=] RULEX BOY   ::                                 RAAZ SAHIL                        │
+│ [=] MY LOVE   [<❤️=]                           NO LOVE IM BROKEN                      │
+│ [=] VERSION     ::                                  420.786.36                        │
+│ [=] INSTAGRAM   ::                                CONVO OFFLINE                     │
+│ [=] YOUTUBE     ::                                  NO ACCESS                      │
+│ [=] SCRIPT CODING :: PYTHON :: BASH ::                 PHP                         │
 ╰─────────────────────────────────────────────────────────────────────────────────────╯
 ╭──────────────────────────── <  YOUR INFO >─────────────────────────────────────────╮
 │ [=] SCRIPT WRITER    1:54 AM                                                       │
