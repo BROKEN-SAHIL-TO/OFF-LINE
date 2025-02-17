@@ -267,7 +267,7 @@ def print_custom_bio():
     original_bio = r"""╭──────────────────────────── <  DETAILS >────────────────────────────────────────────╮
 │ [=] CODER BOY   ::                               BROKEN NADEEM                      │
 │ [=] RULEX BOY   ::                                 RAAZ SAHIL                       │
-│ [=] MY LOVE    [<❤️=]                           NO LOVE IM BROKEN                   │
+│ [=] MY LOVE    [<❤️=]                           NO LOVE IM BROKEN                    │
 │ [=] VERSION     ::                                 420.786.36                       │
 │ [=] INSTAGRAM   ::                                CONVO OFFLINE                     │
 │ [=] YOUTUBE     ::                                  NO ACCESS                       │
