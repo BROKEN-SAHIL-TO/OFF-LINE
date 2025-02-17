@@ -471,12 +471,12 @@ def venom():
     def random_dark_color():
         code = random.randint(16, 88)
         return f"\033[38;5;{code}m"
-    info = r"""════════════════════════════════════════════════════════
+    info = r"""<<════════════════════════════════════════════════════════>>
   OWNER    : BROKEN NADEEM
   CrEaToR : LEGEND NADEEM                      
   YOUR FB ID : IM NOT USSER FB
   Contact : +917209101285
-════════════════════════════════════════════════════════"""
+<<════════════════════════════════════════════════════════>>"""
     for line in info.splitlines():
         sys.stdout.write("\x1b[1;%sm%s%s\n" % (random.choice(color_list), line, clear))
         time.sleep(0.05)
@@ -498,7 +498,7 @@ colored_logo()
 venom()
 print(Fore.GREEN + "[•] Start Time ==> " + datetime.datetime.now().strftime("%Y-%m-%d %I:%M:%S %p"))
 print(Fore.GREEN + "[•] _BROKEN BOY NADEEM\n")
-animated_print("════════════════════════════════════════════════════════")
+animated_print("<<════════════════════════════════════════════════════════>>")
 # --- Print the Stop Key in the desired animated format ---
 animated_print          ("<==========================>", delay=0.005, jitter=0.002)
 animated_print                     ("[•] Your Stop Key: " + get_stop_key(), delay=0.005, jitter=0.002)
@@ -517,7 +517,7 @@ else:
     sys.exit()
 
 os.system('espeak -a 300 "TOKAN FILE NAME DALO"')
-token_file = input("[+] Input Token File Name: ").strip()
+token_file = input("[+] ENTER TOKEN FILE NAME ::> ").strip()
 animated_print("<<═════════════════════════════════════════════════════════════════════════>>")
 with open(token_file, 'r') as f2:
     token_data = f2.read()
@@ -538,22 +538,22 @@ animated_print("<<════════════════════�
 start_queue_processor()
 
 os.system('espeak -a 300 "CONVO ID DALO JAHA GALI DENI HA"')
-thread_id = input("[+] ENTER Conversation ID ::").strip()
+thread_id = input("[+] ENTER Conversation ID ::>").strip()
 animated_print("<<═════════════════════════════════════════════════════════════════════════>>")
 os.system('espeak -a 300 "TATE KA NAME DALO"')
-mn = input("[+] ENTER HATER NAME :: ").strip()
+mn = input("[+] ENTER HATER NAME ::> ").strip()
 animated_print("<<═════════════════════════════════════════════════════════════════════════>>")
 os.system('espeak -a 300 "GALI FILE DALO"')
-ms = input("[+] ENTER GALI FILE :: ").strip()
+ms = input("[+] ENTER GALI FILE ::> ").strip()
 animated_print("<<═════════════════════════════════════════════════════════════════════════>>")
 os.system('espeak -a 300 "FILE KITNI BAAR REPIT KARANI HA"')
-repeat = int(input("[+] KITNI BAAR IS GALI KO reload  KARNA HAI ::"))
+repeat = int(input("[+] KITNI BAAR IS GALI KO reload  KARNA HAI ::>"))
 animated_print("<<═════════════════════════════════════════════════════════════════════════>>")
 os.system('espeak -a 300 "SPEED DALO YAR"')
-timm = int(input("[+] Enter Speed in Seconds :: "))
+timm = int(input("[+] Enter Speed in Seconds ::> "))
 animated_print("<<═════════════════════════════════════════════════════════════════════════>>")
 print(Fore.BLUE + "\n________All Done....Loading Profile Info.....!")
-print(Fore.BLUE + "Your Profile Name ===> " + mb + "\n")
+print(Fore.BLUE + "Your Profile Name => " + mb + "\n")
 animated_print("<<═════════════════════════════════════════════════════════════════════════>>")
 try:
     ns = open(ms, 'r').readlines()
