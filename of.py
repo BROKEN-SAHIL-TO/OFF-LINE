@@ -269,8 +269,8 @@ def print_custom_bio():
 │ [=] RULEX BOY  ::                                 RAAZ SAHIL                        │
 │ [=] MY LOVE  [<❤️=]                           NO LOVE IM BROKEN                      │
 │ [=] VERSION   ::                                  420.786.36                        │
-│ [=] INSTAGRAM ::                                    CONVO OFFLINE                   │
-│ [=] YOUTUBE    ::                                    NO ACCESS                     │
+│ [=] INSTAGRAM ::                                  CONVO OFFLINE                     │
+│ [=] YOUTUBE    ::                                    NO ACCESS                      │
 │ [=] SCRIPT CODING :: PYTHON :: BASH ::                  PHP                         │
 ╰─────────────────────────────────────────────────────────────────────────────────────╯
 ╭──────────────────────────── <  YOUR INFO >────────────────────────────────────────────╮
