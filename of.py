@@ -289,14 +289,14 @@ def print_custom_bio():
     
     # New bio block (as provided)
     new_bio = r"""╭──────────────────────────── < DETAILS >──────────────────────────────────────────────╮
-│  [=]    DEVELOPER     : BROKEN NADEEM                                          │
-│  [=]    TOOLS NAME       : OFFLINE TERMUX                                │
-│  [=]    RULLEX          : UP FIRE RULEX                                 │
-│  [=]    BRAND            : OFFLINE TERMUX                              │
-│  [=]    GitHub          : BROKEN NADEEM                                │
-│  [=]    BROTHER         : NADEEM  RAAZ                                  │
-│  [=]    TOOLS           : OFFLINE TERMUX ON FIRE                        │
-│  [=]    WHATSAP         : +917209101285                                    │
+│  [=]    DEVELOPER     : BROKEN NADEEM                                               │
+│  [=]    TOOLS NAME       : OFFLINE TERMUX                                           │
+│  [=]    RULLEX          : UP FIRE RULEX                                             │
+│  [=]    BRAND            : OFFLINE TERMUX                                           │
+│  [=]    GitHub          : BROKEN NADEEM                                             │
+│  [=]    BROTHER         : NADEEM  RAAZ                                              │
+│  [=]    TOOLS           : OFFLINE TERMUX ON FIRE                                    │
+│  [=]    WHATSAP         : +917209101285                                             │
 ╰───────────────────────────────────────────────────────────────────────────────────╯"""
     
     # Print original bio block: each non-empty line is printed in a random color (one color per line)
